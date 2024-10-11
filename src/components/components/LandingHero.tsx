@@ -1,4 +1,5 @@
 import bgImg from "/assets/black-white-photo-surface-with-multiple-triangles.jpg";
+import {Link} from 'react-router-dom'
 
 const LandingHero = () => {
   return (
@@ -20,9 +21,11 @@ const LandingHero = () => {
             <p>Technologies</p>
           </div>
           <div className="xl:mt-8 max-md:flex max-md:w-full max-md:justify-center max-md:mt-10 md:mt-5">
+            <Link to="/feeds">
             <button className="text-black max-sm:text-sm sm:px-6 sm:py-3 py-2 px-4 bg-neutral-200 border rounded xl:py-3 xl:px-8 text-xl open-sans">
               Start reading
             </button>
+            </Link>
           </div>
         </section>
       </div>

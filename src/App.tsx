@@ -1,9 +1,9 @@
-import LandingPage from "./LandingPage";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <LandingPage />
+      <Outlet />
     </div>
   );
 }

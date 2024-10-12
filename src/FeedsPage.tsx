@@ -17,7 +17,7 @@ const FeedsPage = () => {
   };
 
   return (
-    <div className=" h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col">
       <Header />
       {userPref.showBanner && <FeedsBanner closeBanner={handleCloseBanner} />}
       <FeedsNav/>

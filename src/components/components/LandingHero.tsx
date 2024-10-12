@@ -11,7 +11,7 @@ const LandingHero = () => {
       <div className="absolute top-1/4  md:px-20 md:flex justify-center items-cente">
         <section className=" w-full">
           <div className="open-sans lg:w-1/2 tracking-tight max-md:leading-[4rem] xl:text-7xl md:text-6xl max-md:text-5xl font-semibold text-neutral-200 max-md:text-center max-md:pl-2 max-md:pr-4 xl:text-[6rem] xl:leading-[7rem] leading-[3rem] xl:font-normal max-sm:text-3xl">
-            Exploring the layers of the programming world
+            Exploring the layers of programming world
           </div>
           <div className="flex w-full py-3 px-2 mt-4 sm:mt-6 gap-2 xl:my-12 text-white justify-start max-md:justify-center items-center text-xs md:text-xs open-sans">
             <p>Languages</p>

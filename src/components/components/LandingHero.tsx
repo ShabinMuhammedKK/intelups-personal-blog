@@ -22,7 +22,7 @@ const LandingHero = () => {
           </div>
           <div className="xl:mt-8 max-md:flex max-md:w-full max-md:justify-center max-md:mt-10 md:mt-5">
             <Link to="/feeds">
-            <button className="max-sm:text-sm sm:px-6 sm:py-3 py-2 px-4 border-white border text-white hover:bg-neutral-200 hover:text-black  transform duration-300  rounded xl:py-3 xl:px-8 text-xl open-sans">
+            <button className="max-sm:text-sm sm:px-6 sm:py-3 py-2 px-4 border-white border text-white hover:bg-neutral-200 hover:text-black  transform duration-200  rounded xl:py-3 xl:px-8 text-xl open-sans">
               Start reading
             </button>
             </Link>

@@ -5,6 +5,8 @@ import App from "./App.tsx";
 import "./index.css";
 import FeedsPage from "./FeedsPage.tsx";
 import LandingPage from "./LandingPage.tsx";
+import AdminLogin from "./AdminLogin.tsx";
+import AdminDashboard from "./AdminDashboard.tsx";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
       {
         path: "feeds",
         element: <FeedsPage />,
+      },
+      {
+        path: "/admin",
+        element: <AdminLogin />,
+      },
+      {
+        path: "admin/dashboard",
+        element: <AdminDashboard />,
       },
     ],
   },

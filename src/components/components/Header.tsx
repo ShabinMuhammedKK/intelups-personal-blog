@@ -3,7 +3,7 @@ import intelupsLogo from "/assets/intelups-logo.png";
 
 const Header = () => {
   return (
-    <div className="h-[4.5vh] w-full bg-white flex justify-start items-center border-b-2 shadow-md shadow-neutral-200">
+    <div className="h-[5vh] w-full bg-white flex justify-start items-center border-b-2 ">
       <Link to="/">
         <div className="cursor-pointer w-fit p-3 h-fit md:ml-10 ml-4 max-sm:px-0 flex justify-between items-center">
           <img

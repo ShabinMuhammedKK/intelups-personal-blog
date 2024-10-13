@@ -19,7 +19,7 @@ const RecenltlyUploaded = () => {
           <RiFilter2Line />
         </span>
       </section>
-      <section className="bg-neutral-900 flex-grow h-full pt-8 pb-20 w-full">
+      <section className="bg-neutral-900 flex-grow h-full pt-6 pb-20 w-full">
         <UploadedContent />
         <UploadedContent />
         <UploadedContent />

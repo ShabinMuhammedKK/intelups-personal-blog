@@ -1,10 +1,12 @@
 import { RiFileUploadLine } from "@remixicon/react";
 import ComboboxDemo from "./ComboBox";
+import ContentPara from "./ContentPara";
 
 const NewContentUpload = () => {
   return (
-    <div className="bg-neutral-900 h-screen w-full mt-10 pb-20 flex flex-col items-center">
-      <div className="bg-black xl:w-[70%] xl:h-[20rem] flex">
+    <div className="bg-neutral-900 min-h-screen w-full mt-10 p-10 flex flex-col items-center">
+      {/* content info section*/}
+      <section className="bg-black xl:w-[70%] xl:h-[20rem] flex">
         <section className="w-1/3 border border-neutral-700 h-full flex flex-col items-center">
           <div className="flex flex-col w-full xl:w-[70%] xl:mt-4 gap-2">
             <label className="text-md font-medium">Title</label>
@@ -40,22 +42,25 @@ const NewContentUpload = () => {
             <label className="text-md font-medium">Category</label>
             <ComboboxDemo />
           </div>
-          <div className="flex flex-col gap-2 xl:mt-4 xl:w-[70%]">
-            <label className="text-md font-medium">Subcategory</label>
-            <ComboboxDemo />
-          </div>
+
           <div className="flex flex-col gap-2 xl:mt-4 xl:w-[70%]">
             <label className="text-md font-medium">Avg reading time</label>
             <ComboboxDemo />
           </div>
         </section>
-      </div>
-      <div className="bg-green-500 xl:w-[70%] flex-grow"></div>
-      <div className="xl:h-[5rem] flex justify-start items-center">
+      </section>
+      {/* content section*/}
+      <section className=" xl:w-[70%] xl:pb-10 flex-grow flex flex-col items-center border border-neutral-700">
+        <ContentPara titleLabel="Main title" paraLabel="Paragraph 1" />
+        <ContentPara titleLabel="Sub title" paraLabel="Paragraph 2" />
+        <ContentPara titleLabel="Sub title" paraLabel="Paragraph 3" />
+      </section>
+      {/* bottom section*/}
+      <section className="xl:h-[5rem] flex justify-start items-center">
         <button className="px-8 py-3 rounded-sm bg-neutral-700 hover:bg-green-500 font-medium">
           Publish
         </button>
-      </div>
+      </section>
     </div>
   );
 };

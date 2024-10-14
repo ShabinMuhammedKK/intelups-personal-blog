@@ -5,7 +5,7 @@ const UploadedContent = () => {
     <div className="flex justify-center items-start mt-3 open-sans">
       <div className="border xl:w-[60%] border-neutral-700 bg-neutral-950 rounded-sm xl:h-60 lg:w-[80%] md:w-full p-2 sm:w-full max-md:mx-4">
         <div className="flex flex-row max-md:gap-3 w-full  h-full justify-between items-center p-2 max-md:flex max-md:flex-col">
-          <section className="border md:h-40 lg:h-48 max-md:h-40 bg-red-500 sm:w-[60%] max-sm:w-full xl:w-4/12 border-neutral-700 rounded-sm ">
+          <section className="border md:h-40 lg:h-48 max-md:h-40 sm:w-[60%] max-sm:w-full xl:w-4/12 border-neutral-700 rounded-sm ">
             thumbnail
           </section>
           <section className="max-md:gap-3  h-full w-7/12 max-md:w-full flex-col justify-evenly">

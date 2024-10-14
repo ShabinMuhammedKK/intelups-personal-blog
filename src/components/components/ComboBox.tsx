@@ -53,7 +53,7 @@ const frameworks = [
           variant="outline"
           role="combobox"
           aria-expanded={open}
-          className="w-[200px] justify-between bg-black text-neutral-500 border-neutral-700 rounded-sm"
+          className="w-[200px] justify-between bg-black text-neutral-500 border-neutral-700 rounded-sm max-sm:w-fit"
         >
           {value
             ? frameworks.find((framework) => framework.value === value)?.label

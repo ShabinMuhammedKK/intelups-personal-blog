@@ -21,10 +21,6 @@ const RecenltlyUploaded = () => {
       </section>
       <section className="bg-neutral-900 flex-grow h-full pt-6 pb-20 w-full">
         <UploadedContent />
-        <UploadedContent />
-        <UploadedContent />
-        <UploadedContent />
-        <UploadedContent />
       </section>
     </div>
   );

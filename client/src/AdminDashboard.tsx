@@ -8,7 +8,7 @@ const AdminDashboard = () => {
   return (
     <div className="open-sans">
       <div>
-        <Header />
+        <Header isAdmin={true}/>
         <section className=" text-white flex justify-center max-sm:px-5 items-center">
           <div className="xl:w-[40%] md:w-[40%] max-md:w-[80%] bg-black border font-medium text-sm max-sm:text-xs border-neutral-700 mt-2 py-1 gap-2 rounded-[6px] flex justify-around">
             <div
